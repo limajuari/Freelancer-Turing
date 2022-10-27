@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .container {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.left, .right {
+    width: 50%;
+    font-size: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gainsboro;
+    transition: 0.3s; 
+}
+
+.post {
+    color: white;
+    background-color: rgb(227, 5, 135) ;
+    border-radius: 5px;
+    border:none;
+    font-weight: bold;
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+img {
+    margin-left: 90px;
+    height: 30px;
+}
+
+nav {
+    background-color: rgba(2, 1, 26, 0.862);
+    height: 50px;
+    margin-top: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 25px;
+}
+
+nav a {
+    color: white;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-left: 85px;
+}
+
+.navbar ul li a {
+    font-weight: 0;
+    font-size: 15px;
+}
+
+section {
+    height: 600px;
+    background-image: url(/img.jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    padding: 25px;
+}
+
+section ul li {
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.hiring {
+    color: white;
+    background-color: rgb(227, 5, 135) ;
+    border-radius: 3px;
+    border:none;
+    font-weight: bold;
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.money {
+    font-weight: bold;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 3px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.hire p {
+    color: white;
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+h5 {
+    margin-left: 50px;
+    font-size: 20px;
+    width: 90px;
+    color: gray;
+}
+.clogo {
+    display: inline-flex;
+    padding: 20px;
+}
+
+hr {
+    margin: 50px;
+}
+
+.something {
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 120px;
+}
+
+.block-wrapper {
+    display: inline-block;
+    gap: 20px;
+}
+
+.inspiration p {
+    font-size: 25px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
