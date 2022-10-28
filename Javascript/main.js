@@ -103,13 +103,13 @@ console.log(longest_str_in_array);
 
 function longestStringInArray(list) {
     let maxfound = 0;
-    let maxPos = 0;
+    let longeststring;
 
     for (index in list) {
         const StringSize = list[index].length;
         if (StringSize > maxfound) {
             maxfound = StringSize;
-            maxPos = index;
+            longeststring = list[index];
         }
     }
     return list[maxPos];
