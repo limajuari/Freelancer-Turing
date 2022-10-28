@@ -50,12 +50,39 @@ function sumnum(numb, operator) {
     return total;
 }
 
-let phoneBook = {
-    Abel: 5802943,
-    Juari: 9138651,
-    Tiago: 9746561,
-    Lima: 9160096
+
+function whosephonenumber(phonenumber) {
+
+    let phoneBook = {
+        Abel: 5802943,
+        Juari: 9138651,
+        Tiago: 9746561,
+        Lima: 9160096
+    }
+    for (key in phoneBook) {
+        const savedphonenumber = phoneBook[key];
+
+        if (savedphonenumber == phonenumber) {
+            return key;
+        }
+    }
 }
 
-function getnumb(phoneBook)
 
+function whosename(name) {
+
+    let phoneBook = {
+        Abel: 5802943,
+        Juari: 9138651,
+        Tiago: 9746561,
+        Lima: 9160096
+    }
+    for (key in phoneBook) {
+        const savedname = key;
+
+        if (savedname == name) {
+            return phoneBook[key];
+        }
+    }
+    return 'Name non-existant!';
+}
