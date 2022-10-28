@@ -86,3 +86,31 @@ function whosename(name) {
     }
     return 'Name non-existant!';
 }
+
+function longest_str_in_array(arra) {
+    var max_str = arra[0].length;
+    var ans = arra[0];
+    for (var i = 1; i < arra.length; i++) {
+        var maxi = arra[i].length;
+        if (maxi > max_str) {
+            ans = arra[i];
+            max_str = maxi;
+        }
+    }
+    return ans;
+}
+console.log(longest_str_in_array);
+
+function longestStringInArray(list) {
+    let maxfound = 0;
+    let maxPos = 0;
+
+    for (index in list) {
+        const StringSize = list[index].length;
+        if (StringSize > maxfound) {
+            maxfound = StringSize;
+            maxPos = index;
+        }
+    }
+    return list[maxPos];
+}
